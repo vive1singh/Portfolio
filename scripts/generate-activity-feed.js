@@ -4,7 +4,7 @@
 // and writes app/public/data/activity-feed.json for the Activity Feed panel.
 //
 // Usage:
-//   GITHUB_TOKEN=ghp_xxx bun scripts/generate-activity-feed.js
+//   GITHUB_TOKEN=ghp_xxx node scripts/generate-activity-feed.js
 //   (token is optional but recommended to avoid 60 req/hr rate limit)
 
 "use strict";
