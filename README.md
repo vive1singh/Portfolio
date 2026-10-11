@@ -1,52 +1,21 @@
-# Utkarsh Priyadarshi — Developer Portfolio
+# Vivek Singh — Developer Portfolio
 
 **_A VS Code–inspired developer portfolio. Built to impress. Crafted to perform._**
 
-[![Live Site](https://img.shields.io/badge/Live%20Site-Visit-6c91c3?style=for-the-badge&logo=github-pages&logoColor=white)](https://utkarsh5026.github.io/me/)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Bun](https://img.shields.io/badge/Bun-1.x-fbf0df?style=for-the-badge&logo=bun&logoColor=black)](https://bun.sh/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](https://github.com/utkarsh5026/me/pulls)
-[![PWA Ready](https://img.shields.io/badge/PWA-Ready-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
 
 ---
 
-## 📋 Table of Contents
+## 🧠 About
 
-- [Utkarsh Priyadarshi — Developer Portfolio](#utkarsh-priyadarshi--developer-portfolio)
-  - [📋 Table of Contents](#-table-of-contents)
-  - [🧠 About The Project](#-about-the-project)
-  - [✨ Key Features](#-key-features)
-  - [🛠️ Tech Stack](#️-tech-stack)
-    - [🏗️ Core](#️-core)
-    - [🧩 UI \& Components](#-ui--components)
-    - [🎬 Animations](#-animations)
-    - [⚙️ Build \& DX](#️-build--dx)
-  - [📁 Project Structure](#-project-structure)
-  - [🚀 Getting Started](#-getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Available Commands](#available-commands)
-    - [Adding a New Project](#adding-a-new-project)
-    - [Deployment](#deployment)
-  - [💡 Usage \& Examples](#-usage--examples)
-    - [Terminal Commands](#terminal-commands)
-    - [Navigating Sections](#navigating-sections)
-    - [Customizing Content](#customizing-content)
-  - [🗺️ Roadmap](#️-roadmap)
-  - [🤝 Contributing](#-contributing)
-    - [How to Contribute](#how-to-contribute)
-    - [Conventions](#conventions)
-  - [📄 License](#-license)
-  - [📬 Contact](#-contact)
+I'm **Vivek Singh** — a BCA student at CCS University working my way toward being a full stack developer. I focus on frontend with **JavaScript** and **React**, and I'm actively learning **TypeScript, Tailwind, Node, Express, databases, and DSA in JavaScript**.
 
----
-
-## 🧠 About The Project
-
-This is not your average developer portfolio. It's a fully interactive, VS Code–inspired single-page application that reimagines the traditional portfolio format as a living code editor — complete with a file explorer, closeable tabs, an embedded terminal, breadcrumb navigation, and a Git commits panel.
+This portfolio is my **software engineering workspace**: a fully interactive, VS Code–inspired single-page application that reimagines the portfolio as a living code editor — complete with a file explorer, closeable tabs, an embedded terminal, and a git commits panel.
 
 **Why this exists:**
 
@@ -67,21 +36,21 @@ Most portfolios are static pages. This one behaves like an IDE. Every section of
 - 🔍 **Git Blame Annotations** — Hover any component to see its last commit (hash, date, author, message), sourced from pre-generated `git-meta.json`, mirroring the VS Code GitLens experience. Can be toggled off in Settings; disabled on mobile.
 - 📜 **Git Commits Panel** — Browsable commit history for this repo, with a GitHub-style contribution heatmap
 - 📡 **Activity Feed** — A cross-repo panel showing recent commits from my most recently pushed GitHub repositories
-- 📄 **Resume Section** — Interactive resume as a VS Code editor tab (experience, education, projects, skills) with VS Code outline integration and a downloadable PDF
+- 🗂️ **Project Workspace** — Each project opens in its own workspace with overview, architecture, features, challenges, tech stack, roadmap, and shareable deep links
 - ⌨️ **Interactive Terminal** — A real-feeling terminal with commands like `help`, `ls`, `cd`, `cat`, `find`, `projects`, `skills`, and `contact`
 - 💫 **CSS Module Animations** — Performant, zero-runtime-cost animations via CSS modules + AnimeJS for complex sequences
-- 🚀 **Project Showcase** — A featured project plus a project grid. Each project opens as its own editor tab with a long-form markdown write-up (images, tables, YouTube embeds) and a shareable `/projects/:slug` link.
+- 🚀 **Project Showcase** — A featured project plus a project grid, each with honest Implemented / In progress / Planned status labels
 - 📝 **Articles Section** — Highlights technical writing, blog posts, and dev content
 - 📱 **Swipe Navigation** — Mobile-first swipe gestures (via `react-swipeable`) for navigating sections and projects
 - 🎨 **Multi-Theme Support** — Catppuccin flavor picker in Settings (Mocha, Macchiato, Frappé, Latte) with persisted preference
 - ⚡ **PWA Ready** — Installable, offline-capable, and lightning-fast with Vite's service worker plugin
-- 🔬 **React Compiler** — Powered by the React 19 compiler beta for automatic memoization and optimized re-renders
+- 🔬 **React Compiler** — Enabled through Babel for automatic memoization and optimized re-renders
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🏗️ Core
+### Core
 
 | Layer            | Technology                                           |
 | :--------------- | :--------------------------------------------------- |
@@ -91,9 +60,9 @@ Most portfolios are static pages. This one behaves like an IDE. Every section of
 | **Routing**      | React Router DOM 7                                   |
 | **State Mgt**    | Zustand 5                                            |
 | **Pkg Manager**  | Bun                                                  |
-| **Compiler**     | React Compiler (beta)                                |
+| **Compiler**     | React Compiler (via Babel)                           |
 
-### 🧩 UI & Components
+### UI & Components
 
 | Purpose                 | Library                                                     |
 | :---------------------- | :---------------------------------------------------------- |
@@ -107,14 +76,14 @@ Most portfolios are static pages. This one behaves like an IDE. Every section of
 | **Code Highlighting**   | PrismJS + react-syntax-highlighter                          |
 | **Markdown Rendering**  | react-markdown + rehype-highlight + rehype-raw + remark-gfm |
 
-### 🎬 Animations
+### Animations
 
 | Purpose                   | Library                           |
 | :------------------------ | :-------------------------------- |
 | **Complex Sequences**     | AnimeJS 3                         |
 | **Transition Animations** | CSS Modules + tailwindcss-animate |
 
-### ⚙️ Build & DX
+### Build & DX
 
 | Purpose                | Tool                                                            |
 | :--------------------- | :-------------------------------------------------------------- |
@@ -133,11 +102,12 @@ Most portfolios are static pages. This one behaves like an IDE. Every section of
 ## 📁 Project Structure
 
 ```text
-portfolio/
+me/
 ├── app/                        # All source code lives here
 │   ├── src/
 │   │   ├── App.tsx             # Routes: every section path + /projects/:slug → the editor
 │   │   ├── types.ts            # Global TypeScript types
+│   │   ├── config/             # Site config + project data (projects.vivek.ts)
 │   │   ├── components/
 │   │   │   ├── animations/     # Floating elements, Matrix rain, Reveal effects
 │   │   │   ├── base/           # ThemeProvider, TechBadge, technology icon mapping
@@ -148,7 +118,7 @@ portfolio/
 │   │   │   │   │   ├── panels/      # Git commits (with heatmap) and activity feed panels
 │   │   │   │   │   └── section/     # Shared wrapper used by every portfolio section
 │   │   │   │   └── portfolio/  # Content sections: intro, about, skills, projects, work, resume, …
-│   │   │   ├── load/           # 404 page + story-driven intro screens (not currently routed)
+│   │   │   ├── load/           # 404 page + story-driven intro screens
 │   │   │   └── ui/             # shadcn/ui components + shared primitives (Heading/Text, loaders, cards)
 │   │   ├── hooks/              # use-mobile, use-project, use-git-component, use-swipe, use-keydown, …
 │   │   ├── store/              # Zustand: projects, git data, activity feed, outline, settings
@@ -171,7 +141,7 @@ portfolio/
 └── README.md
 ```
 
-The git panels read JSON generated from the repo's history at build time. These files are gitignored: `app/public/git-stats.json`, `app/public/git-commits.json`, `app/public/data/git-meta.json`, and `app/public/data/activity-feed.json`.
+The git panels read JSON generated from the repo's history at build time: `app/public/git-stats.json`, `app/public/git-commits.json`, `app/public/data/git-meta.json`, and `app/public/data/activity-feed.json`. These files are gitignored and generated, not committed by hand.
 
 ---
 
@@ -187,7 +157,7 @@ The git panels read JSON generated from the repo's history at build time. These 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/utkarsh5026/me.git
+git clone https://github.com/vive1singh/me.git
 cd me
 
 # 2. Navigate to the app directory
@@ -246,14 +216,39 @@ There is no automated test suite; `make check` plus a successful build is the ba
 
 Projects are data-driven. No component changes are needed.
 
-1. Add an entry to `app/public/data/projects.json`, following [`docs/PROJECT_TEMPLATE.json`](docs/PROJECT_TEMPLATE.json). The first entry is shown as the featured project.
-2. Add the project's write-up at `app/public/data/projects/<slug>.md`, where `<slug>` is the project name lowercased with spaces turned into hyphens (e.g. `My Project` → `my-project.md`). Follow [`docs/PROJECT_RESTRUCTURE_GUIDE.md`](docs/PROJECT_RESTRUCTURE_GUIDE.md): pure Markdown, no HTML tags.
+1. Add an entry to `app/src/config/projects.vivek.ts`, following the shape of the existing entries (name, tagline, status, description, technologies, etc.).
+2. If the project needs a shareable deep link, add a route in `App.tsx` and a page under `app/src/components/workspace/` (`ProjectStudio.tsx` shows the pattern).
 
-Without the markdown file, the project's card still appears but its tab shows an error.
+---
 
-### Deployment
+## 💼 Projects
 
-Pushing to `main` builds the site with GitHub Actions and deploys it to both GitHub Pages and Vercel. Pull requests get a Vercel preview plus a bot comment comparing bundle size and Lighthouse scores against `main`. A daily scheduled job redeploys Vercel so the activity feed stays fresh.
+### 🎟️ Event Hive — *In progress*
+
+> Event discovery & booking platform. Frontend substantially developed; backend, auth and persistence are the next build step.
+
+| Layer                    | Status      |
+| :----------------------- | :---------- |
+| Frontend UI/UX           | Implemented |
+| API integration layer    | In progress |
+| Backend (Node + Express) | Planned     |
+| DB (MongoDB + Mongoose)  | Planned     |
+
+- [Repo](https://github.com/vive1singh/event-hive)
+- Roadmap: Auth → Database & API → Real booking persistence → Payments (if needed)
+
+### ☁️ Unified Cloud Storage Manager — *Planned*
+
+> A planned full-stack concept: connect several cloud providers (Google Drive / Dropbox / OneDrive / etc.) behind one interface, with unified file discovery, semantic search (embeddings + pgvector + RAG), storage analytics, duplicate detection, and AI-assisted file operations.
+
+| Layer                | Status  |
+| :------------------- | :------ |
+| Frontend UI          | Planned |
+| Provider adapters    | Planned |
+| PostgreSQL + pgvector | Planned |
+| Semantic search / RAG | Planned |
+
+Currently a concept and technical roadmap — no production implementation claimed.
 
 ---
 
@@ -281,20 +276,18 @@ Once the portfolio loads, open the terminal with **Ctrl + `` ` ``** and try:
 ### Navigating Sections
 
 - **Desktop:** Use the file explorer on the left sidebar or click tabs at the top to switch sections. Toggle the explorer with **`\`** or **Ctrl + E**.
-- **Mobile:** Swipe left/right to navigate between sections; a swipe hint appears on first load
+- **Mobile:** Swipe left/right to navigate between sections; a swipe hint appears on first load.
 - **Direct links:** Every section has its own URL (`/about`, `/projects`, `/resume`, …), and each project has one at `/projects/<slug>`.
 
 ### Customizing Content
 
-Content is split between public data files and TypeScript data modules:
-
-| Content          | Where it lives                                                         |
-| :--------------- | :--------------------------------------------------------------------- |
-| Projects         | `app/public/data/projects.json` + `app/public/data/projects/<slug>.md` |
-| Articles         | `app/src/components/home/portfolio/articles/articles-dump.ts`          |
-| Work experience  | `app/src/components/home/portfolio/work/experienceDump.ts`             |
-| Skills           | `app/src/components/home/portfolio/skills/data.tsx`                    |
-| Learning journey | `app/src/components/home/portfolio/learning/data.tsx`                  |
+| Content          | Where it lives                                            |
+| :--------------- | :-------------------------------------------------------- |
+| Site info        | `app/src/config/site.ts`                                  |
+| Projects         | `app/src/config/projects.vivek.ts`                        |
+| Articles         | `app/src/components/home/portfolio/articles/articles-dump.ts` |
+| Work experience  | `app/src/components/home/portfolio/work/experienceDump.ts`    |
+| Skills           | `app/src/components/home/portfolio/skills/data.tsx`             |
 
 Editing these updates both the sections and the terminal commands. No component changes are needed.
 
@@ -307,20 +300,16 @@ Editing these updates both the sections and the terminal commands. No component 
 - [x] Git contribution heatmap panel
 - [x] Git blame annotations per section (VS Code GitLens–style)
 - [x] Git commits history panel
-- [x] Interactive resume section with VS Code outline integration + PDF download
+- [x] Project workspace pages
 - [x] Multi-theme Catppuccin flavor picker (Mocha, Macchiato, Frappé, Latte)
 - [x] PWA support (offline, installable)
 - [x] Mobile swipe navigation
 - [x] Cross-repo activity feed panel
-- [x] Project deep-dive pages with shareable `/projects/:slug` links
-- [x] Replace Framer Motion with CSS modules for zero-runtime animations
-- [x] React Compiler beta integration for automatic memoization
-- [ ] Keyboard shortcut palette (Ctrl+P command palette simulation)
-- [ ] Guestbook / visitor message feature
+- [x] Event Hive frontend
+- [ ] Event Hive backend (auth, database, API)
+- [ ] Unified Cloud Storage Manager
 - [ ] Blog/article detail pages with full markdown rendering
 - [ ] Full WCAG 2.1 AA accessibility audit
-
-> Have an idea? [Open an issue](https://github.com/utkarsh5026/me/issues) or [start a discussion](https://github.com/utkarsh5026/me/discussions)!
 
 ---
 
@@ -331,7 +320,6 @@ Contributions are greatly appreciated. Any improvements, bug fixes, or ideas are
 ### How to Contribute
 
 1. **Fork** the repository
-
 2. **Create your feature branch**
 
    ```bash
@@ -339,7 +327,6 @@ Contributions are greatly appreciated. Any improvements, bug fixes, or ideas are
    ```
 
 3. **Make your changes** and ensure they follow the project conventions below
-
 4. **Lint and type-check before committing**
 
    ```bash
@@ -349,7 +336,7 @@ Contributions are greatly appreciated. Any improvements, bug fixes, or ideas are
 5. **Commit your changes**
 
    ```bash
-   git commit -m "feat: add your feature description"
+   git commit -m "feat: your description"
    ```
 
 6. **Push to your branch**
@@ -382,20 +369,16 @@ See [`LICENSE`](LICENSE) for full details.
 
 ## 📬 Contact
 
-**Utkarsh Priyadarshi** — Software Developer & Open Source Enthusiast
+**Vivek Singh** — Full Stack Developer (in training) · BCA student at CCS University
 
-| Platform           | Link                                                                              |
-| :----------------- | :-------------------------------------------------------------------------------- |
-| 🌐 **Portfolio**   | [utkarsh5026.github.io/me](https://utkarsh5026.github.io/me/)                           |
-| 🐙 **GitHub**      | [@utkarsh5026](https://github.com/utkarsh5026)                                    |
-| 💼 **LinkedIn**    | [Utkarsh Priyadarshi](https://www.linkedin.com/in/utkarsh-priyadarshi-8b5a731b9/) |
-| 🐦 **Twitter / X** | [@UtkarshPriyad10](https://x.com/UtkarshPriyad10)                                 |
-| 📧 **Email**       | [utkarshpriyadarshi5026@gmail.com](mailto:utkarshpriyadarshi5026@gmail.com)       |
-
-> Found a bug or have a suggestion? [Open an issue](https://github.com/utkarsh5026/me/issues) — I'd love to hear from you.
+| Platform           | Link                                                    |
+| :----------------- | :------------------------------------------------------ |
+| 🐙 **GitHub**      | [@vive1singh](https://github.com/vive1singh)            |
+| 💼 **LinkedIn**    | [Vivek Singh](https://www.linkedin.com/in/vive1singh)   |
+| 📧 **Email**       | [dtvivek8@gmail.com](mailto:dtvivek8@gmail.com)         |
 
 ---
 
-Made with ❤️ and a lot of ☕ by [Utkarsh Priyadarshi](https://github.com/utkarsh5026)
+Made with ❤️ and a lot of ☕ by **Vivek Singh**
 
 ⭐ **Star this repo if you found it useful or inspiring!**
