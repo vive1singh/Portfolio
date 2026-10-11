@@ -6,7 +6,6 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Bun](https://img.shields.io/badge/Bun-1.x-fbf0df?style=for-the-badge&logo=bun&logoColor=black)](https://bun.sh/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 ---
@@ -59,7 +58,7 @@ Most portfolios are static pages. This one behaves like an IDE. Every section of
 | **Styling**      | Tailwind CSS 3 (Catppuccin, 4 flavors) + CSS Modules |
 | **Routing**      | React Router DOM 7                                   |
 | **State Mgt**    | Zustand 5                                            |
-| **Pkg Manager**  | Bun                                                  |
+| **Pkg Manager**  | npm                                                  |
 | **Compiler**     | React Compiler (via Babel)                           |
 
 ### UI & Components
@@ -149,7 +148,7 @@ The git panels read JSON generated from the repo's history at build time: `app/p
 
 ### Prerequisites
 
-- **[Bun](https://bun.sh/)** `>= 1.0` — used as the package manager and runtime
+- **[Node.js](https://nodejs.org/)** `>= 20` — runtime for the app and build tooling
 - **[Git](https://git-scm.com/)**
 - **Python 3** — only needed for the `make` shortcuts
 
@@ -164,10 +163,10 @@ cd me
 cd app
 
 # 3. Install dependencies
-bun install
+npm install
 
 # 4. Start the development server
-bun run dev
+npm run dev
 ```
 
 The dev server will be available at **<http://localhost:5173>**.
@@ -179,20 +178,20 @@ The git commits, activity, blame, and status-bar data come from generated JSON f
 Run from the `app/` directory:
 
 ```bash
-bun run dev              # Start development server
-bun run build            # Type-check + production build (does not regenerate git data)
-bun run force-build      # Clean rebuild (clears Vite/TS cache)
-bun run lint             # ESLint (zero-warnings policy)
-bun run typecheck        # TypeScript check only
-bun run preview          # Preview the production build locally
-bun run watch:prod       # Rebuild on change and serve the production build on :3000
-bun run analyze          # Visualize bundle composition
-bun run format:check     # Check formatting with Prettier
-bun run format:write     # Auto-fix formatting with Prettier
-bun run gen:git-stats    # Regenerate per-section git stats (status bar)
-bun run gen:git-commits  # Regenerate commits panel + heatmap data
-bun run gen:git-meta     # Regenerate per-component git blame data
-bun run gen:activity     # Regenerate the cross-repo activity feed (set GITHUB_TOKEN to avoid rate limits)
+npm run dev              # Start development server
+npm run build            # Type-check + production build (does not regenerate git data)
+npm run force-build      # Clean rebuild (clears Vite/TS cache)
+npm run lint             # ESLint (zero-warnings policy)
+npm run typecheck        # TypeScript check only
+npm run preview          # Preview the production build locally
+npm run watch:prod       # Rebuild on change and serve the production build on :3000
+npm run analyze          # Visualize bundle composition
+npm run format:check     # Check formatting with Prettier
+npm run format:write     # Auto-fix formatting with Prettier
+npm run gen:git-stats    # Regenerate per-section git stats (status bar)
+npm run gen:git-commits  # Regenerate commits panel + heatmap data
+npm run gen:git-meta     # Regenerate per-component git blame data
+npm run gen:activity     # Regenerate the cross-repo activity feed (set GITHUB_TOKEN to avoid rate limits)
 ```
 
 Or use the **Makefile** from the project root (`make help` lists everything):
@@ -349,8 +348,8 @@ Contributions are greatly appreciated. Any improvements, bug fixes, or ideas are
 
 ### Conventions
 
-- Use `bun` — not npm or yarn
-- ESLint zero-warnings policy must pass: `bun run lint`
+- Use `npm` — not yarn or bun
+- ESLint zero-warnings policy must pass: `npm run lint`
 - Use the Catppuccin `ctp-*` color tokens from `tailwind.config.js` for any new UI (`ctp-blue`, `ctp-mauve`, `ctp-pink`, etc.). Hardcoded colors won't follow the theme flavor picker.
 - Use `<Heading>` and `<Text>` from `src/components/ui/text.tsx` — no raw `<h1>`–`<h6>` or `<p>` tags
 - Use `cn()` from `src/lib/utils.ts` for conditional Tailwind classes

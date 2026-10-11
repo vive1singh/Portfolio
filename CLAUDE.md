@@ -4,25 +4,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Layout
 
-A VS Code–styled portfolio SPA (React 18 + TypeScript + Vite 5 + Tailwind 3 + Zustand). All application code lives in `app/`; the repo root holds `scripts/` (Node build/data generators), `docs/`, and the `Makefile`. Use **bun** only (not npm/yarn). The `@/` import alias maps to `app/src/`.
+A VS Code–styled portfolio SPA (React 18 + TypeScript + Vite 5 + Tailwind 3 + Zustand). All application code lives in `app/`; the repo root holds `scripts/` (Node build/data generators), `docs/`, and the `Makefile`. Use **npm** (not bun/yarn). The `@/` import alias maps to `app/src/`.
 
 ## Commands
 
 Run from `app/`:
 
 ```bash
-bun install
-bun run dev            # Vite dev server on :5173 (vite-plugin-checker also reports TS errors)
-bun run build          # tsc -b && vite build — does NOT regenerate git/activity JSON
-bun run lint           # ESLint, --max-warnings 0
-bun run typecheck      # tsc --noEmit
-bun run format:write   # Prettier
-bunx eslint . --ext ts,tsx --fix   # fixes import-sort errors among others
+npm install
+npm run dev            # Vite dev server on :5173 (vite-plugin-checker also reports TS errors)
+npm run build          # tsc -b && vite build — does NOT regenerate git/activity JSON
+npm run lint           # ESLint, --max-warnings 0
+npm run typecheck      # tsc --noEmit
+npm run format:write   # Prettier
+npx eslint . --ext ts,tsx --fix   # fixes import-sort errors among others
 ```
 
 From the repo root, `make <target>` forwards to `python makefile.py <target>` (`make help` lists all). Useful ones: `make check` (lint + type-check), `make build` (runs `scripts/build.js`: regenerates all data JSON, then builds), `make gen-git-all`, `make gen-activity`, `make watch-prod` (rebuild-on-change + serve prod build on :3000).
 
-There is no test framework or test suite. Verification = `make check` + `bun run build`. CI (`.github/workflows/ci.yml`) runs lint, `tsc --noEmit`, and build.
+There is no test framework or test suite. Verification = `make check` + `npm run build`. CI (`.github/workflows/ci.yml`) runs lint, `tsc --noEmit`, and build.
 
 The Husky pre-commit hook runs `eslint --fix --max-warnings 0` and Prettier on staged files inside `app/` and re-stages them, so any lint warning blocks the commit.
 
