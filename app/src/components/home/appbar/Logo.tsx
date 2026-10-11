@@ -1,0 +1,141 @@
+/**
+ * The uppercase wordmark — "vivek.dev", split into animated parts.
+ * When the page loads it splits the text and animates it in:
+ * - "vivek" slides in from the left
+ * - "dev" slides in from the right
+ * - The dot bounces in from above
+ *
+ * Bonus: Click it to refresh the page and see the animation again!
+ *
+ * Uses anime.js for those smooth spring animations.
+ */
+
+import "./logo.css";
+
+import anime from "animejs";
+import React, { useEffect, useRef } from "react";
+
+interface LogoProps {
+  centerDot?: boolean;
+}
+
+const Logo: React.FC<LogoProps> = ({ centerDot }) => {
+  const dotRef = useRef<HTMLSpanElement>(null);
+  const leftTextRef = useRef<HTMLSpanElement>(null);
+  const rightTextRef = useRef<HTMLSpanElement>(null);
+
+  useEffect(() => {
+    const timeline = anime.timeline({
+      easing: "easeOutExpo",
+    });
+
+    if (centerDot) {
+      // Special animation for InfiniteVoid integration
+      timeline
+        .add({
+          targets: dotRef.current,
+          translateY: [-50, 0],
+          opacity: [0, 1],
+          duration: 1000,
+          easing: "easeOutBounce",
+        })
+        .add(
+          {
+            targets: leftTextRef.current,
+            translateX: [-100, -20],
+            opacity: [0, 1],
+            duration: 1200,
+            easing: "spring(1, 80, 10, 0)",
+          },
+          "-=400"
+        )
+        .add(
+          {
+            targets: rightTextRef.current,
+            translateX: [100, 20],
+            opacity: [0, 1],
+            duration: 1200,
+            easing: "spring(1, 80, 10, 0)",
+          },
+          "-=1200"
+        );
+    } else {
+      // Original animation for navbar
+      timeline
+        .add({
+          targets: leftTextRef.current,
+          translateX: [-100, 0],
+          opacity: [0, 1],
+          duration: 1200,
+          easing: "spring(1, 80, 10, 0)",
+        })
+        .add(
+          {
+            targets: rightTextRef.current,
+            translateX: [100, 0],
+            opacity: [0, 1],
+            duration: 1200,
+            easing: "spring(1, 80, 10, 0)",
+          },
+          "-=1000"
+        )
+        .add(
+          {
+            targets: dotRef.current,
+            translateY: [-50, 0],
+            opacity: [0, 1],
+            duration: 1000,
+            easing: "easeOutBounce",
+          },
+          "-=800"
+        );
+    }
+  }, [centerDot]);
+
+  return (
+    <button
+      className="flex gap-4 transform transition-transform hover:scale-105 font-source"
+      onClick={() => {
+        window.location.reload();
+      }}
+      aria-label="Reload page"
+    >
+      <div className="cursor-pointer group">
+        <div
+          className={`relative inline-flex ${
+            centerDot ? "justify-center" : ""
+          }`}
+        >
+          <div className="flex items-center font-semibold">
+            <span
+              ref={leftTextRef}
+              className={`text-ctp-text opacity-0 ${
+                centerDot ? "relative right-2.5" : ""
+              }`}
+            >
+              vivek
+            </span>
+            <span
+              ref={dotRef}
+              className={`text-ctp-blue font-bold opacity-0 leading-none ${
+                centerDot ? "absolute left-1/2 -translate-x-1/2 dot-center" : ""
+              }`}
+            >
+              .
+            </span>
+            <span
+              ref={rightTextRef}
+              className={`text-ctp-text opacity-0 ${
+                centerDot ? "relative left-2.5" : ""
+              }`}
+            >
+              dev
+            </span>
+          </div>
+        </div>
+      </div>
+    </button>
+  );
+};
+
+export default Logo;

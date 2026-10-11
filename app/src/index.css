@@ -1,0 +1,467 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .interactive-scale {
+    @apply transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98];
+  }
+}
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+  :root,
+  .latte {
+    --radius: 0.5rem;
+  }
+
+  .dark,
+  .mocha,
+  .macchiato,
+  .frappe {
+    color-scheme: dark;
+  }
+
+  /* ── VIVEK.DEV design tokens ─────────────────────────────────────────
+     Two themes, switched by the `theme` class on <html> (ThemeProvider
+     maps the settings store's `flavor`). Existing components use --ctp-*
+     vars, remapped below so nothing needs rewiring.
+     "cobalt"  = dark, default (deep navy + graphite, electric accent)
+     "paper"   = light, warm readable (coffee-paper, accents darkened) */
+  :root.theme-cobalt {
+    --vivek-bg: 16 19 26;
+    --vivek-panel: 23 27 36;
+    --vivek-elevated: 32 38 51;
+    --vivek-accent: 40 100 255;
+    --vivek-text: 245 240 232;
+    --vivek-muted: 165 169 184;
+    --vivek-border: 48 55 70;
+    --vivek-success: 99 199 154;
+    --vivek-warning: 255 184 107;
+    --editor-fg: 205 214 244;
+    --editor-accent: 40 100 255;
+    --editor-keyword: 245 170 180;
+    --editor-function: 250 226 175;
+    --editor-string: 166 227 161;
+    --editor-comment: 115 120 140;
+    --editor-class: 150 160 255;
+    --editor-special: 245 194 231;
+    --editor-border: 48 55 70;
+    --editor-active-line: 19 22 30;
+    --editor-blue: 90 140 255;
+    --editor-overlay0: 100 105 125;
+    --editor-overlay1: 125 130 150;
+    --ctp-base: 16 19 26;
+    --ctp-crust: 16 19 26;
+    --ctp-mantle: 23 27 36;
+    --ctp-surface0: 30 36 48;
+    --ctp-surface1: 30 36 48;
+    --ctp-surface2: 48 55 70;
+    --ctp-text: 245 240 232;
+    --ctp-subtext0: 165 169 184;
+    --ctp-subtext1: 200 204 212;
+    --ctp-blue: 40 100 255;
+    --ctp-lavender: 120 140 255;
+    --ctp-mauve: 140 150 255;
+    --ctp-green: 99 199 154;
+    --ctp-yellow: 255 184 107;
+    --ctp-peach: 255 170 130;
+    --ctp-red: 235 108 108;
+    --ctp-pink: 245 194 231;
+    --ctp-teal: 120 200 210;
+    --ctp-sapphire: 130 185 240;
+    --ctp-sky: 150 200 245;
+    --ctp-rosewater: 245 224 220;
+    --ctp-overlay0: 100 105 125;
+    --ctp-overlay1: 125 130 150;
+    --ctp-overlay2: 150 155 170;
+    --ctp-maroon: 220 150 160;
+    --ctp-flamingo: 236 176 181;
+  }
+  :root.theme-paper {
+    --vivek-bg: 250 247 242;
+    --vivek-panel: 242 238 232;
+    --vivek-elevated: 233 228 219;
+    --vivek-accent: 30 84 255;
+    --vivek-text: 39 44 54;
+    --vivek-muted: 105 110 120;
+    --vivek-border: 216 210 200;
+    --vivek-success: 36 143 104;
+    --vivek-warning: 176 122 26;
+    --editor-fg: 39 44 54;
+    --editor-accent: 30 84 255;
+    --editor-keyword: 160 50 90;
+    --editor-function: 175 100 30;
+    --editor-string: 36 143 104;
+    --editor-comment: 145 140 130;
+    --editor-class: 90 70 220;
+    --editor-special: 186 100 130;
+    --editor-border: 216 210 200;
+    --editor-active-line: 232 227 218;
+    --editor-blue: 30 84 255;
+    --editor-overlay0: 145 140 130;
+    --editor-overlay1: 110 105 100;
+    --ctp-base: 250 247 242;
+    --ctp-crust: 245 241 234;
+    --ctp-mantle: 242 238 232;
+    --ctp-surface0: 216 210 200;
+    --ctp-surface1: 224 219 210;
+    --ctp-surface2: 206 200 190;
+    --ctp-text: 39 44 54;
+    --ctp-subtext0: 105 110 120;
+    --ctp-subtext1: 90 95 106;
+    --ctp-blue: 30 84 255;
+    --ctp-lavender: 76 92 216;
+    --ctp-mauve: 110 96 230;
+    --ctp-green: 36 143 104;
+    --ctp-yellow: 176 122 26;
+    --ctp-peach: 200 100 30;
+    --ctp-red: 185 55 55;
+    --ctp-pink: 205 90 150;
+    --ctp-teal: 16 138 152;
+    --ctp-sapphire: 26 122 196;
+    --ctp-sky: 26 140 190;
+    --ctp-rosewater: 190 80 40;
+    --ctp-overlay0: 145 140 130;
+    --ctp-overlay1: 110 105 100;
+    --ctp-overlay2: 90 85 80;
+    --ctp-maroon: 160 90 90;
+    --ctp-flamingo: 170 90 90;
+  }
+  :root,
+  .mocha,
+  .theme-cobalt {
+    color-scheme: dark;
+  }
+  :root.theme-paper,
+  .latte {
+    color-scheme: light;
+  }
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* UI scale. The interface is sized in rem, so the root font-size sets the
+     density of everything. At the browser default the editor reads as zoomed
+     in on laptop screens; 80% gives it a VS Code-like density there. Phones
+     and touch tablets keep the default. Size new UI in rem so it follows. */
+  @media (min-width: 1024px) and (pointer: fine) {
+    html {
+      font-size: 80%;
+    }
+  }
+}
+
+@keyframes borderAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.section-animate {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.8s ease-out,
+    transform 0.8s ease-out;
+}
+
+.section-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (max-width: 768px) {
+  .bg-gradient-border {
+    animation: mistGlow 12s ease-in-out infinite;
+  }
+
+  .bg-gradient-border::before {
+    filter: blur(4px);
+    padding: 6px;
+    animation: borderAnimation 12s ease infinite;
+  }
+}
+
+@keyframes sectionBorder {
+  0%,
+  100% {
+    background-position: 0% 50%;
+    filter: blur(6px) brightness(1);
+  }
+
+  50% {
+    background-position: 100% 50%;
+    filter: blur(8px) brightness(1.2);
+  }
+}
+
+@media (max-width: 768px) {
+  .section-gradient-border {
+    box-shadow:
+      0 0 25px 5px rgba(147, 51, 234, 0.15),
+      0 0 60px 8px rgba(59, 130, 246, 0.1),
+      inset 0 0 15px rgba(236, 72, 153, 0.05);
+  }
+
+  .section-visible .section-gradient-border {
+    box-shadow:
+      0 0 35px 8px rgba(147, 51, 234, 0.2),
+      0 0 80px 15px rgba(59, 130, 246, 0.15),
+      inset 0 0 20px rgba(236, 72, 153, 0.1);
+  }
+
+  .section-gradient-border::before {
+    filter: blur(4px);
+    padding: 6px;
+  }
+}
+
+.infinite-void {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  will-change: transform;
+  isolation: isolate;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  animation: gradient 8s ease infinite;
+}
+
+.bg-size-200 {
+  background-size: 200% 200%;
+}
+
+/* Syntax highlighting */
+.token.keyword {
+  color: var(--editor-keyword);
+}
+.token.function {
+  color: var(--editor-function);
+}
+.token.string {
+  color: var(--editor-string);
+}
+.token.comment {
+  color: var(--editor-comment);
+}
+.token.class-name {
+  color: var(--editor-class);
+}
+.token.operator {
+  color: var(--editor-special);
+}
+.token.punctuation {
+  color: var(--editor-fg);
+}
+.token.number {
+  color: var(--editor-blue);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--editor-overlay0);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--editor-overlay1);
+}
+
+/* Hide scrollbar but keep functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Neon text effect */
+.neon-text {
+  text-shadow:
+    0 0 5px rgba(137, 180, 250, 0.5),
+    0 0 10px rgba(137, 180, 250, 0.3),
+    0 0 15px rgba(137, 180, 250, 0.2);
+  animation: neon-pulse 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon-pulse {
+  from {
+    text-shadow:
+      0 0 5px rgba(137, 180, 250, 0.5),
+      0 0 10px rgba(137, 180, 250, 0.3),
+      0 0 15px rgba(137, 180, 250, 0.2);
+  }
+  to {
+    text-shadow:
+      0 0 10px rgba(137, 180, 250, 0.7),
+      0 0 20px rgba(137, 180, 250, 0.5),
+      0 0 30px rgba(137, 180, 250, 0.3);
+  }
+}
+
+/* Terminal cursor blink */
+.cursor-blink {
+  animation: blink 1s infinite;
+}
+
+/* Skeleton shimmer animation for lazy loading */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.skeleton-shimmer {
+  animation: shimmer 1.5s infinite;
+}
+
+/* ─── Signature animation primitives ──────────────────────────────────────
+   Registered custom properties so they can be interpolated by keyframes.
+   Stagger convention used by section CSS modules:
+     style={{ "--i": index }}  →  animation-delay: calc(var(--i, 0) * 45ms) */
+@property --count {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+@property --trace-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+/* CSS-only count-up: set --count-to inline, add .count-up when in view. */
+@keyframes count-up {
+  from {
+    --count: 0;
+  }
+  to {
+    --count: var(--count-to);
+  }
+}
+
+.count-up {
+  counter-reset: count var(--count);
+  animation: count-up 900ms cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+}
+
+.count-up::after {
+  content: counter(count);
+}
+
+/* Reduced motion: render every animation in its final state.
+   Driven by the OS preference or the in-app Settings toggle (data-motion). */
+html[data-motion="reduced"] *,
+html[data-motion="reduced"] *::before,
+html[data-motion="reduced"] *::after {
+  animation-duration: 1ms !important;
+  animation-delay: 0ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 1ms !important;
+  transition-delay: 0ms !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    transition-delay: 0ms !important;
+  }
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Event Hive",
+    "tagline": "Event discovery & booking \u2014 frontend built, backend planned",
+    "description": "Event discovery and booking platform. Frontend substantially developed \u2014 browsing, categories, detail views, booking flows and dashboards. Backend (auth, DB, payments) is planned, not claimed as complete. Status split clearly per feature.",
+    "keyFeatures": [
+      "Event discovery & browsing with categories \u2014 Implemented (frontend)",
+      "Event detail views & booking interfaces \u2014 Implemented (frontend)",
+      "User & organizer dashboards \u2014 Implemented (frontend mock)",
+      "Auth, database, booking persistence & payments \u2014 Planned"
+    ],
+    "technologies": [
+      "react",
+      "typescript",
+      "tailwind",
+      "vite",
+      "node",
+      "mongodb"
+    ],
+    "githubLink": "",
+    "liveLink": "",
+    "icon": "\ud83c\udf9f\ufe0f",
+    "explain": [
+      "Event browsing with categories",
+      "Booking flow & dashboards"
+    ],
+    "explainCards": {
+      "problem": [],
+      "execution": [],
+      "future": []
+    }
+  },
+  {
+    "name": "Unified Cloud Storage Manager",
+    "tagline": "Planned \u2014 unified storage with semantic search & analytics",
+    "description": "Planned full-stack concept: connect multiple cloud providers, offer unified file discovery, semantic search via embeddings/RAG, storage analytics and duplicate detection. Roadmap only \u2014 not shipped.",
+    "keyFeatures": [
+      "Unified file discovery across providers \u2014 Planned",
+      "Semantic search (embeddings + RAG) \u2014 Planned",
+      "Storage analytics & duplicate detection \u2014 Planned",
+      "AI-assisted file operations \u2014 Planned"
+    ],
+    "technologies": [
+      "react",
+      "typescript",
+      "node",
+      "postgresql"
+    ],
+    "githubLink": "",
+    "icon": "\u2601\ufe0f",
+    "explain": [
+      "Concept: unified discovery",
+      "Roadmap: embeddings + RAG + analytics"
+    ],
+    "explainCards": {
+      "problem": [],
+      "execution": [],
+      "future": []
+    }
+  }
+]
