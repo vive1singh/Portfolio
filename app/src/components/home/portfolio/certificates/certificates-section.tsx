@@ -5,16 +5,17 @@ import Reveal from "@/components/animations/reveal/Reveal";
 import { OutlineNode } from "@/components/home/editor/outline";
 import Section from "@/components/home/editor/section/portfolio-section";
 import { useGitComponent } from "@/hooks/use-git-component";
+import { type AppColor } from "@/lib/ctp-colors";
 import { ctpAccentStyle } from "@/lib/ctp-colors";
 import { cn, withBase } from "@/lib/utils";
 
 import { type Certificate, certificates } from "./data";
 
-const cardColors = ["mauve", "green", "blue", "peach", "sapphire", "pink"];
+const cardColors: AppColor[] = ["mauve", "green", "blue", "peach", "sapphire", "pink"];
 
 const CertificateCard: React.FC<{
   cert: Certificate;
-  color: string;
+  color: AppColor;
 }> = ({ cert, color }) => {
   const image = cert.image ? withBase(cert.image) : undefined;
 
