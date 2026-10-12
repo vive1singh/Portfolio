@@ -232,7 +232,7 @@ const t_git_push = () => {
 const t_info = () => {
   header("Project Information");
   console.log(`\n${C.y}Project:${C.x}        Portfolio Website`);
-  console.log(`${C.y}Homepage:${C.x}       (set your GitHub Pages / Vercel URL)`);
+  console.log(`${C.y}Homepage:${C.x}       (set your GitHub Pages URL)`);
   console.log(`${C.y}App Directory:${C.x}  ${APP_DIR}/`);
   console.log(`\n${C.y}Technology Stack:${C.x}`);
   const stack = [

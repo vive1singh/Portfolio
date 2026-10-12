@@ -1,13 +1,44 @@
 name: Refresh Activity Feed
 
 on:
-  schedule:
-    - cron: "0 2 * * *"   # daily at 02:00 UTC
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  trigger-vercel-redeploy:
+  regenerate:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Vercel deploy hook
-        run: curl -s -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}"
+      - name: Checkout code
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - name: Install dependencies
+        working-directory: ./app
+        run: npm ci
+
+      - name: Regenerate activity-feed.json
+        run: node scripts/generate-activity-feed.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain app/public/data/activity-feed.json)" ]; then
+            git add app/public/data/activity-feed.json
+            git commit -m "chore: refresh activity feed"
+            git push
+          else
+            echo "No activity feed changes"
+          fi

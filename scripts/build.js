@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Full production build pipeline (npm version):
-//   1. Unshallow git clone (needed in CI/Vercel environments)
+//   1. Unshallow git clone (needed in CI environments)
 //   2. Generate all git data JSON files
 //   3. Generate activity feed
 //   4. Run Vite build
