@@ -10,8 +10,8 @@ import {
   MobileNav,
   WorkspaceStatusBar,
 } from "@/components/workspace";
+import { useEditorToggles } from "@/hooks/use-editor-actions";
 import useMobile from "@/hooks/use-mobile";
-import { cn } from "@/lib/utils";
 
 import EditorBreadcrumbs from "./breadcrumbs/editor-breadcrumbs";
 import CodeContent from "./code-content";
@@ -62,18 +62,24 @@ const CodeEditor: React.FC = () => {
   useEditorSync();
   const explorerOpen = useEditorStore((s) => s.explorerOpen);
   const terminalOpen = useEditorStore((s) => s.terminalOpen);
+  const mobileMenuOpen = useEditorStore((s) => s.mobileMenuOpen);
+  const { setMobileMenuOpen } = useEditorToggles();
+
   const { isMobile } = useMobile();
 
   return (
     <div className="min-h-screen bg-ctp-base flex">
-      <div
-        className={cn(
-          "flex h-screen w-screen max-w-screen overflow-hidden",
-          !isMobile && "ml-14"
-        )}
-      >
-        {!isMobile && <SideBar />}
-        {!isMobile && explorerOpen && <Explorer />}
+      {/* Mobile: dark backdrop behind the sliding sidebar/explorer panels */}
+      {isMobile && mobileMenuOpen && (
+        <div
+          className="md:hidden fixed inset-0 z-40 bg-black/50 backdrop-blur-sm"
+          aria-hidden="true"
+          onClick={() => setMobileMenuOpen(false)}
+        />
+      )}
+      <div className="flex h-screen w-screen max-w-screen overflow-hidden md:ml-14">
+        <SideBar />
+        {explorerOpen && (!isMobile || mobileMenuOpen) && <Explorer />}
         <div className="flex-1 flex flex-col min-w-0 overflow-hidden">
           <GitBlameManager />
           <EditorTabs sections={sectionComponents} />
