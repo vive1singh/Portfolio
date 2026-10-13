@@ -123,7 +123,7 @@ const t_gen_git_all = () => {
 };
 const t_build = () => {
   header("Building for Production");
-  runCmd(["node", "scripts/build.js"]);
+  runCmd(["node", "scripts/build.cjs"]);
   ok("Build completed successfully!");
 };
 const t_build_force = () => {

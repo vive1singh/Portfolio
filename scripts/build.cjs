@@ -5,8 +5,8 @@
 //   3. Generate activity feed
 //   4. Run Vite build
 //
-// Usage (from repo root):  node scripts/build.js
-// Usage (from app/):       node ../scripts/build.js
+// Usage (from repo root):  node scripts/build.cjs
+// Usage (from app/):       node ../scripts/build.cjs
 
 "use strict";
 
@@ -27,11 +27,11 @@ try {
   // Not a shallow clone or fetch failed — safe to ignore
 }
 
-run("node scripts/generate-git-stats.js", { cwd: ROOT });
-run("node scripts/generate-git-commits.js", { cwd: ROOT });
-run("node scripts/generate-git-meta.js", { cwd: ROOT });
+run("node scripts/generate-git-stats.cjs", { cwd: ROOT });
+run("node scripts/generate-git-commits.cjs", { cwd: ROOT });
+run("node scripts/generate-git-meta.cjs", { cwd: ROOT });
 
-run("node scripts/generate-activity-feed.js", { cwd: ROOT });
+run("node scripts/generate-activity-feed.cjs", { cwd: ROOT });
 
 run("npm run build", { cwd: APP });
 
