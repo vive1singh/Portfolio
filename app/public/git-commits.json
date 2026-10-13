@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-10-13T15:19:31.394Z",
+  "commits": [
+    {
+      "hash": "8c8dde8db5a617d927c40a563d78970621259a4e",
+      "shortHash": "8c8dde8",
+      "message": "fix: mobile explorer as overlay panel, not pushing content",
+      "author": "Vivek Singh",
+      "email": "dtvivek8@gmail.com",
+      "date": "2026-10-13T20:39:06+05:30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/486792?v=4",
+      "insertions": 1,
+      "deletions": 1,
+      "filesChanged": 1
+    },
+    {
+      "hash": "81edd9bb3c162a7f80cffdbe46018fd66301f959",
+      "shortHash": "81edd9b",
+      "message": "fix: enable sidebar + explorer panels on mobile/tablet view",
+      "author": "Vivek Singh",
+      "email": "dtvivek8@gmail.com",
+      "date": "2026-10-13T20:21:27+05:30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/486792?v=4",
+      "insertions": 40,
+      "deletions": 12,
+      "filesChanged": 2
+    },
+    {
+      "hash": "6b73351ca793c5bf7d4f54a3b475a19f654b01a8",
+      "shortHash": "6b73351",
+      "message": "chore: remove Vercel deployment (workflows, config, secrets refs)",
+      "author": "Vivek Singh",
+      "email": "dtvivek8@gmail.com",
+      "date": "2026-10-12T23:19:44+05:30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/486792?v=4",
+      "insertions": 38,
+      "deletions": 93,
+      "filesChanged": 7
+    },
+    {
+      "hash": "d316b54cbaf615a0cc3f293ab92dfef2beb85a32",
+      "shortHash": "d316b54",
+      "message": "fix: type cardColors as AppColor to fix tsc build error",
+      "author": "Vivek Singh",
+      "email": "dtvivek8@gmail.com",
+      "date": "2026-10-12T21:17:09+05:30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/486792?v=4",
+      "insertions": 3,
+      "deletions": 2,
+      "filesChanged": 1
+    },
+    {
+      "hash": "3e4a7f509049174f47a5836e58ef732eb7f502c0",
+      "shortHash": "3e4a7f5",
+      "message": "chore: ignore .vercel",
+      "author": "Vivek Singh",
+      "email": "dtvivek8@gmail.com",
+      "date": "2026-10-12T21:06:36+05:30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/486792?v=4",
+      "insertions": 1,
+      "deletions": 0,
+      "filesChanged": 1
+    },
+    {
+      "hash": "158f172de20e90a177fd3a3084cdd49a5d0d31c8",
+      "shortHash": "158f172",
+      "message": "change",
+      "author": "Vivek Singh",
+      "email": "dtvivek8@gmail.com",
+      "date": "2026-10-11T23:26:16+05:30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/486792?v=4",
+      "insertions": 3,
+      "deletions": 80,
+      "filesChanged": 2
+    },
+    {
+      "hash": "da3a5b65b4f6ace9de371fcb1a7af33056b011cd",
+      "shortHash": "da3a5b6",
+      "message": "chore: remove dependabot config",
+      "author": "Vivek Singh",
+      "email": "dtvivek8@gmail.com",
+      "date": "2026-10-11T23:12:03+05:30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/486792?v=4",
+      "insertions": 0,
+      "deletions": 46,
+      "filesChanged": 1
+    },
+    {
+      "hash": "782f67737020b37ea2667506f074cb34f6254030",
+      "shortHash": "782f677",
+      "message": "Update LICENSE",
+      "author": "Vivek Singh",
+      "email": "118829851+vive1singh@users.noreply.github.com",
+      "date": "2026-10-11T22:41:53+05:30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/118829851?v=4",
+      "insertions": 1,
+      "deletions": 1,
+      "filesChanged": 1
+    },
+    {
+      "hash": "0b99cbd026ace55980392b8156906b93f0c5d959",
+      "shortHash": "0b99cbd",
+      "message": "chore: switch from bun to npm",
+      "author": "Vivek Singh",
+      "email": "dtvivek8@gmail.com",
+      "date": "2026-10-11T22:36:50+05:30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/486792?v=4",
+      "insertions": 77,
+      "deletions": 2029,
+      "filesChanged": 10
+    },
+    {
+      "hash": "6dc6d605c2256a227630d60c011cd166168cfe94",
+      "shortHash": "6dc6d60",
+      "message": "docs: rewrite README for Vivek Singh",
+      "author": "Vivek Singh",
+      "email": "dtvivek8@gmail.com",
+      "date": "2026-10-11T22:15:26+05:30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/486792?v=4",
+      "insertions": 68,
+      "deletions": 85,
+      "filesChanged": 1
+    },
+    {
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "author": "Vivek Singh",
+      "email": "dtvivek8@gmail.com",
+      "date": "2026-10-11T21:24:06+05:30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/486792?v=4",
+      "insertions": 208,
+      "deletions": 3908,
+      "filesChanged": 25
+    }
+  ],
+  "commitsByDate": {
+    "2026-10-13": 2,
+    "2026-10-12": 3,
+    "2026-10-11": 6
+  },
+  "languageStats": [
+    {
+      "language": "TypeScript",
+      "count": 266,
+      "color": "#89b4fa"
+    },
+    {
+      "language": "Other",
+      "count": 47,
+      "color": "#6c7086"
+    },
+    {
+      "language": "CSS",
+      "count": 47,
+      "color": "#cba6f7"
+    },
+    {
+      "language": "Markdown",
+      "count": 15,
+      "color": "#89dceb"
+    },
+    {
+      "language": "JSON",
+      "count": 10,
+      "color": "#f9e2af"
+    },
+    {
+      "language": "JavaScript",
+      "count": 9,
+      "color": "#a6e3a1"
+    },
+    {
+      "language": "Other",
+      "count": 2,
+      "color": "#6c7086"
+    }
+  ]
+}

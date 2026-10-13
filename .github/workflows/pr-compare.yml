@@ -37,8 +37,8 @@ jobs:
 
       - name: Generate git data (PR)
         run: |
-          node scripts/generate-git-stats.js
-          node scripts/generate-git-commits.js
+          node scripts/generate-git-stats.cjs
+          node scripts/generate-git-commits.cjs
 
       - name: Build PR branch
         working-directory: ./app
@@ -63,8 +63,8 @@ jobs:
 
       - name: Generate git data (main)
         run: |
-          node scripts/generate-git-stats.js
-          node scripts/generate-git-commits.js
+          node scripts/generate-git-stats.cjs
+          node scripts/generate-git-commits.cjs
 
       - name: Build main branch
         working-directory: ./app

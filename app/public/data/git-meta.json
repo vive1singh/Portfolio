@@ -1,0 +1,1371 @@
+{
+  "generatedAt": "2026-10-13T15:19:32.416Z",
+  "authors": {
+    "Utkarsh Priyadarshi": {
+      "github": "utkarsh5026",
+      "avatar": "https://github.com/utkarsh5026.png"
+    }
+  },
+  "components": {
+    "MobilePersonalIntro": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/personal-intro.tsx",
+      "lines": [
+        120,
+        209
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "DesktopPersonalIntro": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/personal-intro.tsx",
+      "lines": [
+        36,
+        118
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "AboutMe": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/about-me.tsx",
+      "lines": [
+        215,
+        277
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "DesktopAboutSection": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/about-me.tsx",
+      "lines": [
+        181,
+        213
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "SkillsSection": {
+      "section": "skills",
+      "file": "app/src/components/home/portfolio/skills/skills-section.tsx",
+      "lines": [
+        13,
+        53
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "Projects": {
+      "section": "projects",
+      "file": "app/src/components/home/portfolio/projects/projects-section.tsx",
+      "lines": [
+        21,
+        204
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "CertificateCard": {
+      "section": "certificates",
+      "file": "app/src/components/home/portfolio/certificates/certificates-section.tsx",
+      "lines": [
+        16,
+        103
+      ],
+      "hash": "d316b54cbaf615a0cc3f293ab92dfef2beb85a32",
+      "shortHash": "d316b54",
+      "author": "Vivek Singh",
+      "date": "2026-10-12T15:47:09.000Z",
+      "message": "fix: type cardColors as AppColor to fix tsc build error",
+      "diffStat": {
+        "added": 3,
+        "deleted": 2
+      }
+    },
+    "CertificatesSection": {
+      "section": "certificates",
+      "file": "app/src/components/home/portfolio/certificates/certificates-section.tsx",
+      "lines": [
+        105,
+        137
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "WorkExperience": {
+      "section": "experience",
+      "file": "app/src/components/home/portfolio/work/work-experience.tsx",
+      "lines": [
+        15,
+        120
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ContactMe": {
+      "section": "contact",
+      "file": "app/src/components/home/portfolio/contact/contact-me.tsx",
+      "lines": [
+        12,
+        49
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "CurrentLearning": {
+      "section": "learning",
+      "file": "app/src/components/home/portfolio/learning/learning-section.tsx",
+      "lines": [
+        97,
+        191
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "CategoryBlock": {
+      "section": "learning",
+      "file": "app/src/components/home/portfolio/learning/learning-section.tsx",
+      "lines": [
+        42,
+        95
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ArticlesComponent": {
+      "section": "articles",
+      "file": "app/src/components/home/portfolio/articles/articles-section.tsx",
+      "lines": [
+        10,
+        58
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ResumeSection": {
+      "section": "resume",
+      "file": "app/src/components/home/portfolio/resume/resume-section.tsx",
+      "lines": [
+        28,
+        79
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "PrintBlock": {
+      "section": "resume",
+      "file": "app/src/components/home/portfolio/resume/resume-section.tsx",
+      "lines": [
+        16,
+        26
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "MiniProjects": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/profile/mini-projects.tsx",
+      "lines": [
+        14,
+        146
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "PersonalDescription": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/profile/personal-description.tsx",
+      "lines": [
+        12,
+        36
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "PersonalTitle": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/profile/personal-title.tsx",
+      "lines": [
+        14,
+        76
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ProfileAvatar": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/profile/profile-avatar.tsx",
+      "lines": [
+        22,
+        114
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ProfileButtons": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/profile/profile-buttons.tsx",
+      "lines": [
+        110,
+        254
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ProfilePicture": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/profile/profile-picture.tsx",
+      "lines": [
+        15,
+        38
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "RustFocus": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/profile/rust-focus.tsx",
+      "lines": [
+        7,
+        52
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "FileExplorerItem": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/skills/file-explorer.tsx",
+      "lines": [
+        62,
+        113
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "FileExplorer": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/skills/file-explorer.tsx",
+      "lines": [
+        123,
+        161
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "TechSkillsComponent": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/skills/tech-skills.tsx",
+      "lines": [
+        28,
+        74
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "AnimatedText": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/terminal/animated-text.tsx",
+      "lines": [
+        23,
+        130
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "Terminal": {
+      "section": "home",
+      "file": "app/src/components/home/portfolio/intro/terminal/statements-terminal.tsx",
+      "lines": [
+        48,
+        86
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "AboutSectionCard": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/about-section-card.tsx",
+      "lines": [
+        20,
+        77
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "SectionHeader": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/sections/about-header.tsx",
+      "lines": [
+        18,
+        41
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "Interests": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/sections/current-interests.tsx",
+      "lines": [
+        31,
+        92
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "CurrentFocus": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/sections/currrent-focus.tsx",
+      "lines": [
+        24,
+        98
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "Background": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/sections/my-background.tsx",
+      "lines": [
+        10,
+        39
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "FlashCard": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/sections/my-background.tsx",
+      "lines": [
+        46,
+        74
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "EducationCard": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/sections/my-education.tsx",
+      "lines": [
+        54,
+        130
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "Education": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/sections/my-education.tsx",
+      "lines": [
+        16,
+        47
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "Philosophy": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/sections/my-philosophy.tsx",
+      "lines": [
+        38,
+        86
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "Skills": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/sections/skills-display.tsx",
+      "lines": [
+        28,
+        79
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "SkillsList": {
+      "section": "about",
+      "file": "app/src/components/home/portfolio/about/sections/skills-display.tsx",
+      "lines": [
+        85,
+        112
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "AwsBedrockIcon": {
+      "section": "skills",
+      "file": "app/src/components/home/portfolio/skills/brand-icons.tsx",
+      "lines": [
+        18,
+        25
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "LangGraphIcon": {
+      "section": "skills",
+      "file": "app/src/components/home/portfolio/skills/brand-icons.tsx",
+      "lines": [
+        11,
+        15
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ExpandedSkillsContent": {
+      "section": "skills",
+      "file": "app/src/components/home/portfolio/skills/skill-card/expanded-content.tsx",
+      "lines": [
+        8,
+        31
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "SkillCard": {
+      "section": "skills",
+      "file": "app/src/components/home/portfolio/skills/skill-card/skill-card.tsx",
+      "lines": [
+        22,
+        89
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ProjectThemeProvider": {
+      "section": "projects",
+      "file": "app/src/components/home/portfolio/projects/context/ProjectThemeProvider.tsx",
+      "lines": [
+        90,
+        118
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "FeaturedProject": {
+      "section": "projects",
+      "file": "app/src/components/home/portfolio/projects/featured/featured-project.tsx",
+      "lines": [
+        22,
+        88
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "FeaturedHeader": {
+      "section": "projects",
+      "file": "app/src/components/home/portfolio/projects/featured/featured-project.tsx",
+      "lines": [
+        138,
+        179
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ProjectContent": {
+      "section": "projects",
+      "file": "app/src/components/home/portfolio/projects/featured/project-content.tsx",
+      "lines": [
+        18,
+        138
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ProjectMarkdown": {
+      "section": "projects",
+      "file": "app/src/components/home/portfolio/projects/project-markdown.tsx",
+      "lines": [
+        306,
+        494
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "TabBar": {
+      "section": "projects",
+      "file": "app/src/components/home/portfolio/projects/project-markdown.tsx",
+      "lines": [
+        212,
+        277
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "MobileDrawerContent": {
+      "section": "experience",
+      "file": "app/src/components/home/portfolio/work/experience-details.tsx",
+      "lines": [
+        92,
+        137
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "TechnologiesContent": {
+      "section": "experience",
+      "file": "app/src/components/home/portfolio/work/experience-details.tsx",
+      "lines": [
+        30,
+        70
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ExperienceHeader": {
+      "section": "experience",
+      "file": "app/src/components/home/portfolio/work/experience-header.tsx",
+      "lines": [
+        21,
+        192
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ExperienceTabs": {
+      "section": "experience",
+      "file": "app/src/components/home/portfolio/work/experience-tabs.tsx",
+      "lines": [
+        14,
+        104
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "Achievements": {
+      "section": "experience",
+      "file": "app/src/components/home/portfolio/work/work-acheivements.tsx",
+      "lines": [
+        40,
+        91
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "AchievementCard": {
+      "section": "experience",
+      "file": "app/src/components/home/portfolio/work/work-acheivements.tsx",
+      "lines": [
+        98,
+        144
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "AvailableForOpportunities": {
+      "section": "contact",
+      "file": "app/src/components/home/portfolio/contact/available-for-opportunities.tsx",
+      "lines": [
+        31,
+        157
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "EmailHighlight": {
+      "section": "contact",
+      "file": "app/src/components/home/portfolio/contact/email-highlight.tsx",
+      "lines": [
+        18,
+        115
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "SocialMediaLinks": {
+      "section": "contact",
+      "file": "app/src/components/home/portfolio/contact/social-media-links.tsx",
+      "lines": [
+        83,
+        116
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "SocialTile": {
+      "section": "contact",
+      "file": "app/src/components/home/portfolio/contact/social-media-links.tsx",
+      "lines": [
+        54,
+        81
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "LearningCard": {
+      "section": "learning",
+      "file": "app/src/components/home/portfolio/learning/learning-card.tsx",
+      "lines": [
+        20,
+        106
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "JourneyItem": {
+      "section": "learning",
+      "file": "app/src/components/home/portfolio/learning/learning-journey/journey-item.tsx",
+      "lines": [
+        17,
+        141
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "LearningJourney": {
+      "section": "learning",
+      "file": "app/src/components/home/portfolio/learning/learning-journey/learning-journey.tsx",
+      "lines": [
+        23,
+        177
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ProgressIndicator": {
+      "section": "learning",
+      "file": "app/src/components/home/portfolio/learning/learning-journey/progress-indicator.tsx",
+      "lines": [
+        9,
+        32
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "LearningModal": {
+      "section": "learning",
+      "file": "app/src/components/home/portfolio/learning/learning-project-drawer.tsx",
+      "lines": [
+        24,
+        130
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ArticleCard": {
+      "section": "articles",
+      "file": "app/src/components/home/portfolio/articles/article-card.tsx",
+      "lines": [
+        16,
+        111
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ResumeEducation": {
+      "section": "resume",
+      "file": "app/src/components/home/portfolio/resume/resume-education.tsx",
+      "lines": [
+        9,
+        70
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ResumeExperience": {
+      "section": "resume",
+      "file": "app/src/components/home/portfolio/resume/resume-experience.tsx",
+      "lines": [
+        9,
+        101
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ResumeHeader": {
+      "section": "resume",
+      "file": "app/src/components/home/portfolio/resume/resume-header.tsx",
+      "lines": [
+        44,
+        116
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ResumeProjects": {
+      "section": "resume",
+      "file": "app/src/components/home/portfolio/resume/resume-projects.tsx",
+      "lines": [
+        23,
+        86
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "ResumeSkills": {
+      "section": "resume",
+      "file": "app/src/components/home/portfolio/resume/resume-skills.tsx",
+      "lines": [
+        9,
+        53
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "chankit": {
+      "section": "projects",
+      "file": "app/public/data/projects/chankit.md",
+      "lines": [
+        1,
+        140
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "devportfolio": {
+      "section": "projects",
+      "file": "app/public/data/projects/devportfolio.md",
+      "lines": [
+        1,
+        196
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "enigma": {
+      "section": "projects",
+      "file": "app/public/data/projects/enigma.md",
+      "lines": [
+        1,
+        366
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "first-principles": {
+      "section": "projects",
+      "file": "app/public/data/projects/first-principles.md",
+      "lines": [
+        1,
+        82
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "genshin-companion": {
+      "section": "projects",
+      "file": "app/public/data/projects/genshin-companion.md",
+      "lines": [
+        1,
+        107
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "gopool": {
+      "section": "projects",
+      "file": "app/public/data/projects/gopool.md",
+      "lines": [
+        1,
+        235
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "inpeace": {
+      "section": "projects",
+      "file": "app/public/data/projects/inpeace.md",
+      "lines": [
+        1,
+        112
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "mdhd": {
+      "section": "projects",
+      "file": "app/public/data/projects/mdhd.md",
+      "lines": [
+        1,
+        156
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "progchain": {
+      "section": "projects",
+      "file": "app/public/data/projects/progchain.md",
+      "lines": [
+        1,
+        152
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "sourcecontrol": {
+      "section": "projects",
+      "file": "app/public/data/projects/sourcecontrol.md",
+      "lines": [
+        1,
+        188
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    },
+    "storemy": {
+      "section": "projects",
+      "file": "app/public/data/projects/storemy.md",
+      "lines": [
+        1,
+        205
+      ],
+      "hash": "131eecb4cd07ec063daed763db8ee0d64a3a39e4",
+      "shortHash": "131eecb",
+      "author": "Vivek Singh",
+      "date": "2026-10-11T15:54:06.000Z",
+      "message": "Initial commit: Portfolio SPA with React, TypeScript, Vite",
+      "diffStat": {
+        "added": 64385,
+        "deleted": 0
+      }
+    }
+  }
+}

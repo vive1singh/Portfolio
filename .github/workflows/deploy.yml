@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
         with:
-          # Full history needed so generate-git-commits.js can read all 20 commits.
+          # Full history needed so generate-git-commits.cjs can read all 20 commits.
           # Without this, GitHub Actions only clones the latest commit (depth=1).
           fetch-depth: 0
 
@@ -41,16 +41,16 @@ jobs:
         run: npm ci
 
       - name: Regenerate git-stats.json
-        run: node scripts/generate-git-stats.js
+        run: node scripts/generate-git-stats.cjs
 
       - name: Regenerate git-commits.json
-        run: node scripts/generate-git-commits.js
+        run: node scripts/generate-git-commits.cjs
 
       - name: Regenerate git-meta.json
-        run: node scripts/generate-git-meta.js
+        run: node scripts/generate-git-meta.cjs
 
       - name: Regenerate activity-feed.json
-        run: node scripts/generate-activity-feed.js
+        run: node scripts/generate-activity-feed.cjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

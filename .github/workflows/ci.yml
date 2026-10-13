@@ -34,10 +34,10 @@ jobs:
         run: npm ci
 
       - name: Regenerate git-stats.json
-        run: node scripts/generate-git-stats.js
+        run: node scripts/generate-git-stats.cjs
 
       - name: Regenerate git-commits.json
-        run: node scripts/generate-git-commits.js
+        run: node scripts/generate-git-commits.cjs
 
       - name: Run ESLint
         working-directory: ./app

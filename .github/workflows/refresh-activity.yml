@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Regenerate activity-feed.json
-        run: node scripts/generate-activity-feed.js
+        run: node scripts/generate-activity-feed.cjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
