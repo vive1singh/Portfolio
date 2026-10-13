@@ -17,7 +17,7 @@ interface EditorTabsProps {
  * Optimized for both desktop and mobile with responsive design
  * Uses the project's Catppuccin color theme for visual consistency
  */
-const EditorTabs: React.FC<EditorTabsProps> = ({ sections }) => {
+const EditorTabs: React.FC<EditorTabsProps> = () => {
   const setOutlineActiveSection = useOutlineStore((s) => s.setActiveSection);
   const activeSection = useActiveSection();
 
