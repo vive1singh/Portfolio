@@ -60,7 +60,7 @@ const Explorer: React.FC = () => {
   return (
     <div
       className={cn(
-        "editor-explorer w-64 bg-ctp-crust/95 shadow-[8px_0_30px_rgba(0,0,0,0.25)] border-r border-ctp-surface1/50 py-3 overflow-y-auto z-40 h-screen max-h-screen flex flex-col backdrop-blur-xl transition-transform duration-300",
+        "editor-explorer w-72 max-w-[85vw] bg-ctp-crust shadow-[8px_0_30px_rgba(0,0,0,0.35)] border-r border-ctp-surface1/50 py-3 overflow-y-auto z-[45] h-screen max-h-screen flex flex-col backdrop-blur-xl transition-transform duration-300 fixed inset-y-0 left-14 md:static md:left-auto",
         mobileMenuOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0 "
       )}
     >
