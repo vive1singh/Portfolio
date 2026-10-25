@@ -32,19 +32,19 @@ export const certificates: Certificate[] = [
   },
   {
     title: "Frontend Development",
-    issuer: "User",
+    issuer: "AppSquadz",
     date: "2026",
     image: "certificates/whatsapp0.jpeg",
   },
   {
     title: "Advanced Excel",
-    issuer: "User",
+    issuer: "4Achivers",
     date: "2026",
     image: "certificates/whatsapp1.jpeg",
   },
   {
     title: "PHP",
-    issuer: "User",
+    issuer: "Vs2",
     date: "2026",
     image: "certificates/whatsapp2.jpeg",
   },
