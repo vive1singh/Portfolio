@@ -30,4 +30,22 @@ export const certificates: Certificate[] = [
     issuer: "—",
     date: "",
   },
+  {
+    title: "WhatsApp Image 0",
+    issuer: "User",
+    date: "2026",
+    image: "certificates/whatsapp0.jpeg",
+  },
+  {
+    title: "WhatsApp Image 1",
+    issuer: "User",
+    date: "2026",
+    image: "certificates/whatsapp1.jpeg",
+  },
+  {
+    title: "WhatsApp Image 2",
+    issuer: "User",
+    date: "2026",
+    image: "certificates/whatsapp2.jpeg",
+  },
 ];
