@@ -31,19 +31,19 @@ export const certificates: Certificate[] = [
     date: "",
   },
   {
-    title: "WhatsApp Image 0",
+    title: "Frontend Development",
     issuer: "User",
     date: "2026",
     image: "certificates/whatsapp0.jpeg",
   },
   {
-    title: "WhatsApp Image 1",
+    title: "Advanced Excel",
     issuer: "User",
     date: "2026",
     image: "certificates/whatsapp1.jpeg",
   },
   {
-    title: "WhatsApp Image 2",
+    title: "PHP",
     issuer: "User",
     date: "2026",
     image: "certificates/whatsapp2.jpeg",
